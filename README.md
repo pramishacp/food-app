@@ -1,0 +1,1 @@
+This repo is a sample application of hotel search application.
