@@ -1,0 +1,30 @@
+{
+  "name": "food-app-pramisha",
+  "version": "1.0.0",
+  "description": "This repo is a sample application of hotel search application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/sq-node-training/food-app-pramisha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/sq-node-training/food-app-pramisha/issues"
+  },
+  "homepage": "https://gitlab.com/sq-node-training/food-app-pramisha#README",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.10.8",
+    "node-restful": "^0.2.6",
+    "nodemailer": "^4.3.1",
+    "nodemailer-sendgrid-transport": "^0.2.0"
+  }
+}
