@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const jwt = require('jsonwebtoken'); 
 
 
-const secret = 'harrypotter';    // Create custom secret for use in JWT
+const secret = 'the secret';    // Create custom secret for use in JWT
 
 //Grab the model we need
 const User = mongoose.model('User');
