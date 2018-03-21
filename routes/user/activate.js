@@ -6,7 +6,7 @@ const  jwt = require('jsonwebtoken');
 const nodemailer = require('nodemailer');
 const  sgTransport = require('nodemailer-sendgrid-transport');
 
-const secret = 'harrypotter';    // Create custom secret for use in JWT
+const secret = 'thesecret';    // Create custom secret for use in JWT
 
 //Grab the model we need
 let User = mongoose.model('User');
@@ -22,8 +22,8 @@ let activate = function(req, res){
 
     const options = {
         auth: {
-          api_user: 'pramishacp',
-          api_key: 'pramishacp123'
+          api_user: 'your api user',
+          api_key: 'your api key'
         }
     }
       
