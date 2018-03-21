@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken');
 const nodemailer = require('nodemailer');
 const  sgTransport = require('nodemailer-sendgrid-transport');
 
-const secret = 'harrypotter';    // Create custom secret for use in JWT
+const secret = 'the secret';    // Create custom secret for use in JWT
 
 //Grab the model we need
 const User = mongoose.model('User');
@@ -26,8 +26,8 @@ let signup = function(req, res){
     // Start Sendgrid Configuration Settings
     const options = {
         auth: {
-          api_user: 'pramishacp123',
-          api_key: 'pramishacp123'
+          api_user: 'your api',
+          api_key: 'your api key'
         }
     }
    
